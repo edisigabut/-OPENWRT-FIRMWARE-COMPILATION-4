@@ -1,26 +1,59 @@
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
-# Actions-OpenWrt
+## DONATORS
 
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
+- @drakenMY
+- @HarunYusriHashim
 
-A template for building OpenWrt with GitHub Actions
+## OPENWRT FIRMWARE SOURCE CODE
 
-## Usage
+- OPENWRT OFFICIAL
+- LIONEL
+- LEDE
+- IMMORTALWRT
 
-- Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
-- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
-- Push `.config` file to the GitHub repository.
-- Select `Build OpenWrt` on the Actions page.
-- Click the `Run workflow` button.
-- When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
+## OPENWRT FIRMWARE ROUTER
 
-## Tips
+- XIAOMI 4A GIGABIT
+- XIOAMI R3P
+- XIAOMI R3GV1
+- XIOAMI REDMI AX6
+- XIAOMI REDMI AC2100
+- XIAOMI MI AC2100
+- NANOPI R2S
+- RASPBERRY PI4
+- RASPBERRY PI3
+- DLINK DIR 842 C2
+- NETGEAR R6620
+- TOTOLINK X5000R
+- LINKSYS WRT1200AC
+- LINKSYS EA8100V1
+- X86-64
 
-- It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
-- Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
+## OPENWRT PLUGIN 
+
+- HELLOWORD
+- SSR+
+- PASSWALL
+- OPENCLASH
+- BYPASS
+- LIBERNET
+- OVPN
+- WIREGUARD
+- ADGUARD
+- ZEROTIER
+- TTYD TERMINAL
+- SHCEDULE REBOOT
+- MWAN3 LOAD BALANCING
+- THEME
+
+## OPENWRT FIRMWARE LINK DOWNLOAD
+
+- https://github.com/MatJehey/-OPENWRT-FIRMWARE-COMPILATION-1/releases
+- https://github.com/MatJehey/-OPENWRT-FIRMWARE-COMPILATION-2/releases
+- https://github.com/MatJehey/-OPENWRT-FIRMWARE-COMPILATION-3/releases
+- https://github.com/MatJehey/-OPENWRT-FIRMWARE-COMPILATION-4/releases
+- https://github.com/MatJehey/-OPENWRT-FIRMWARE-COMPILATION-5/releases
 
 ## Credits
 
