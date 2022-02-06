@@ -17,7 +17,7 @@ on:
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
-  REPO_BRANCH: openwrt-21.02
+  REPO_BRANCH: openwrt-18.06-k5.4
   FEEDS_CONF: router-config/LINKSYS-WRT1900ACV1-NONMAMBA-IMMOV18/feeds.conf.default
   CONFIG_FILE: router-config/LINKSYS-WRT1900ACV1-NONMAMBA-IMMOV18/.config
   DIY_P1_SH: router-config/LINKSYS-WRT1900ACV1-NONMAMBA-IMMOV18/diy-part1.sh
