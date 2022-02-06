@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build LINKSYS-WRT1900AC-OFFICIAL
+name: Build LINKSYS-WRT1900AC-V1MAMBA-OFFICIAL
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ on:
      - cron: 0 8 1 * *
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
+  REPO_URL: https://git.openwrt.org/openwrt/openwrt.git
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: router-config/LINKSYS-WRT1900AC-OFFICIAL/feeds.conf.default
   CONFIG_FILE: router-config/LINKSYS-WRT1900AC-OFFICIAL/.config
