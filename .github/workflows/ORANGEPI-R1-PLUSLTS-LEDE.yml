@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: BuildORANGEPI-R1-PLUSLTS-LEDE
+name: Build ORANGEPI-R1-PLUSLTS-LEDE
 
 on:
   workflow_dispatch:
